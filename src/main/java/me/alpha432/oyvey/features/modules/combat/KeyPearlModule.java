@@ -1,4 +1,4 @@
-package me.alpha432.oyvey.features.modules.combat;
+rpackage me.alpha432.oyvey.features.modules.combat;
 
 import me.alpha432.oyvey.features.modules.Module;
 import me.alpha432.oyvey.features.settings.Setting;
@@ -13,7 +13,7 @@ public class KeyPearlModule extends Module {
     private final Setting<Boolean> inventory = bool("Inventory", false);
 
     public KeyPearlModule() {
-        super("KeyPearl", "Throws a pearl when enabled.", Category.COMBAT);
+        super("Pearl On Key", "Throws A Pearl With Key Press.", Category.COMBAT);
     }
 
     @Override
