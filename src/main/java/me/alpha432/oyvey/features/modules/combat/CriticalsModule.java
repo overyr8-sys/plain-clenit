@@ -11,7 +11,7 @@ import net.minecraft.world.entity.boss.enderdragon.EndCrystal;
 
 public class CriticalsModule extends Module {
     public CriticalsModule() {
-        super("Criticals", "Makes you do critical hits", Category.COMBAT);
+        super("Crit Only", "Only Crits When You Hit", Category.COMBAT);
     }
 
     @Subscribe
