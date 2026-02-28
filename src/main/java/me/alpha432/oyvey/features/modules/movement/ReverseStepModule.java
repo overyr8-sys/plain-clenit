@@ -4,7 +4,7 @@ import me.alpha432.oyvey.features.modules.Module;
 
 public class ReverseStepModule extends Module {
     public ReverseStepModule() {
-        super("ReverseStep", "step but reversed..", Category.MOVEMENT);
+        super("ReverseStep", "step but reversed.. Cool Yk", Category.MOVEMENT);
     }
 
     @Override
