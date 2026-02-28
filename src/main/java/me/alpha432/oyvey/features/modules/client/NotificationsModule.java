@@ -13,7 +13,7 @@ public class NotificationsModule extends Module {
     public Setting<Boolean> moduleToggle = bool("Module Toggle", true);
 
     public NotificationsModule() {
-        super("Notifications", "Displays notifications for various client events", Category.CLIENT);
+        super("Notifications", "Displays notifications", Category.CLIENT);
     }
 
     @Subscribe
